@@ -34,6 +34,8 @@ function App() {
           <Login />
         </div>
       {/* <MyRoutes /> */}
+
+      <h1>ESTO ES UNA PRUEBA</h1>
     </div>
   )
 }
