@@ -35,11 +35,11 @@ window.addEventListener("load", () => {
             login_message_div.classList.remove('hidden')
             login_message_div.classList.add('animate-fadeIn', 'flex', 'flex-col', 'items-center',  'gap-2', 'text-white')
         }, 500)
-
+        
         // Se desactivan las animaciones de aparición y desaparición al finalizar la animación
         setTimeout( () => {
-            register_message_div.classList.remove('animate-fadeOut')
             login_message_div.classList.remove('animate-fadeIn')
+            register_message_div.classList.remove('animate-fadeOut', 'flex', 'flex-col', 'items-center',  'gap-2', 'text-white')
         }, 1000);
     })
 
@@ -67,13 +67,13 @@ window.addEventListener("load", () => {
         setTimeout( () => {
             login_message_div.classList.add('hidden')
             register_message_div.classList.remove('hidden')
-            register_message_div.classList.add('animate-fadeIn');
+            register_message_div.classList.add('animate-fadeIn', 'flex', 'flex-col', 'items-center', 'gap-2', 'text-white', 'animate-fadeIn');
         }, 500)
 
         // Se desactivan las animaciones de aparición y desaparición al finalizar la animación
         setTimeout( () => {
             register_message_div.classList.remove('animate-fadeIn')
-            login_message_div.classList.remove('animate-fadeOut')
+            login_message_div.classList.remove('animate-fadeOut', 'flex', 'flex-col', 'items-center',  'gap-2', 'text-white')
         }, 1000)
     })
 });

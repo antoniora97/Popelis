@@ -1,14 +1,14 @@
 
 import './App.css'
+import './js/app'
 
 import MyRoutes from "./routers/routes"
-import './js/app'
 import Login from './components/Login'
 
 function App() {
 
   return (
-    <div className='relative flex items-center justify-center h-screen p-2 overflow-hidden'>
+    <div id='app' className='relative flex items-center justify-center h-screen p-2 overflow-hidden'>
         {/* LOGO */}
         <div className='absolute z-20 flex items-center gap-3 top-1 left-2'>
           <i className="flex text-3xl fi fi-brands-youtube"></i>
@@ -16,7 +16,7 @@ function App() {
         </div>
 
         {/* MENSAJE */}
-        <div id='message' className='w-[35%] h-full my-auto bg-red-500 absolute left-0 transition-all top-0 z-10 flex items-center justify-center flex-col gap-2 duration-1000'>
+        <div id='message' className='w-[35%] h-full my-auto bg-red-500 absolute left-0 transition-all top-0 z-10 flex items-center justify-center flex-col gap-2 duration-1000' style={{transformOrigin: 'center'}}>
           <div id='register-message' className='flex flex-col items-center gap-2 text-white'>
             <h2 className='text-3xl font-bold'>¡Hola!</h2>
             <p>¿Nuev@ por aquí?</p>
