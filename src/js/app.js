@@ -1,4 +1,4 @@
-window.addEventListener("load", () => {
+setTimeout(() => {
     const message_div = document.getElementById('message')
     const register_form_div = document.getElementById('register-form')
     const login_form_div = document.getElementById('login-form')
@@ -76,4 +76,4 @@ window.addEventListener("load", () => {
             login_message_div.classList.remove('animate-fadeOut', 'flex', 'flex-col', 'items-center',  'gap-2', 'text-white')
         }, 1000)
     })
-});
+}, 1);
