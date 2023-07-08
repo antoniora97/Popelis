@@ -23,3 +23,9 @@
 .animate-fadeOut {
   animation: fadeOut 0.5s;
 }
+
+@keyframes gradientAnimation {
+  from { background-position: 0px; } /* Posición inicial del degradado */
+  to { background-position: 100px; } /* Posición final del degradado */
+}
+

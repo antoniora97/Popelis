@@ -1,4 +1,5 @@
 setTimeout(() => {
+    const logo_div = document.getElementById('logo')
     const message_div = document.getElementById('message')
     const register_form_div = document.getElementById('register-form')
     const login_form_div = document.getElementById('login-form')
@@ -11,6 +12,8 @@ setTimeout(() => {
 
     // Animación que ocurre al pulsar el botón con id register
     register_btn.addEventListener('click', () => {
+        // logo_div.classList.remove('text-white')
+
         // El div del mensaje se hace más grande y se desplaza a la derecha
         message_div.classList.remove("left-0", "w-[35%]")
         message_div.classList.add("left-[65%]", "w-[55%]")
@@ -69,6 +72,10 @@ setTimeout(() => {
             register_message_div.classList.remove('hidden')
             register_message_div.classList.add('animate-fadeIn', 'flex', 'flex-col', 'items-center', 'gap-2', 'text-white', 'animate-fadeIn');
         }, 500)
+
+        // setTimeout( () => {
+        //     logo_div.classList.add('text-white')
+        // }, 600)
 
         // Se desactivan las animaciones de aparición y desaparición al finalizar la animación
         setTimeout( () => {

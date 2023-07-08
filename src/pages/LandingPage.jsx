@@ -1,13 +1,12 @@
 import ContextMovieCard from "../components/ContextMovieCard";
-import Register from "../components/Register"
-import Login from "../components/Login"
+import Register from "../components/FormElements/Register";
+import Login from "../components/FormElements/Login";
 
-
-export default function LandingPage () {
-    return (
-        <div>
-            <ContextMovieCard />
-            <Login />
-        </div>
-    )
+export default function LandingPage() {
+  return (
+    <div>
+      <ContextMovieCard />
+      <Login />
+    </div>
+  );
 }
