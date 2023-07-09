@@ -1,5 +1,4 @@
 import React from "react";
-import LoginOptions from "../components/FormElements/LoginOptions";
 import "../js/guestHome.js"
 import Register from "../components/FormElements/Register";
 

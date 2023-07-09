@@ -5,6 +5,7 @@ import Input from "./Input";
 import SubmitButton from "./SubmitButton";
 
 const Register = () => {
+    
     const [email, setEmail] = useState("");
     const [username, setUsername] = useState("");
     const [name, setName] = useState("");
