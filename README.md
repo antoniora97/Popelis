@@ -7,4 +7,4 @@ Se han usado las siguientes tecnologías:
 - Tailwind CSS
 - Supabase
 
-Puedes ver la web en el siguiente enlace: https://popelis.netlify.app/
+Puedes ver la web en el siguiente enlace: https://popelis.netlify.app/ (si no puedes verla, puede ser debido a que Netlify ha suspendido el servicio para esta web).
